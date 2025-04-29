@@ -1,0 +1,121 @@
+/* 
+  This is a SAMPLE File to get you started. Follow the instructions on the project to complete the tasks. 
+  You'll probably need to override some of theese styles.
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4fefe;
+    color: #000000;
+}
+
+header {
+    background-color: #008080;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+main {
+    margin: 20px;
+    padding: 2rem;
+}
+
+footer  {
+    background-color: #008080;
+    color: #fff;
+    padding: 1rem;
+}
+
+.place-info {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #008080;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 20px #008080;
+}
+
+.review-card {
+    margin: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #008080;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 20px #008080;
+}
+
+.place-card {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #008080;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 20px #008080;
+}
+
+.filter {
+    text-align: center;
+    font-size: 25px;
+}
+
+#price-filter, #rating {
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #008080;
+    color: #ffffff;
+}
+
+.button, .details-button {
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: #008080;
+    color: #ffffff;
+}
+
+#place-title, #reviews, #review-form {
+    text-align: center;
+}
+
+.review-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#review {
+    border-radius: 10px;
+    border-color: #008080;
+    box-shadow: inset 1px 1px 20px #008080;
+    padding-top: 1.5%;
+    padding-left: 1.5%;
+    resize: none;
+    width: 45%;
+    height: 100px;
+}
